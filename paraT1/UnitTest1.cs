@@ -9,10 +9,14 @@ namespace paraT1
         {
         }
 
+      
         [Test]
-        public void Test1()
+        public void Caso01()
         {
-            Assert.Pass();
+            var carrito = 1;
+
+            var result = 1;
+            Assert.AreEqual(1, result);
         }
     }
 }
